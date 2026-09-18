@@ -832,3 +832,154 @@ nav .logo img {
         justify-content: center;
     }
 }
+
+/*MOBILE RESPONSIVE MEDIA QUERIES*/
+
+@media screen and (max-width: 768px) {
+    
+    /* 1. Navigation Bar Adjustment */
+    section nav, nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    section nav ul {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    section nav li {
+        padding: 5px;
+    }
+
+    section nav .search_box {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    section nav .search_box input {
+        width: 100%;
+    }
+
+    section {
+        height: auto;
+        min-height: 100vh;
+        padding-bottom: 50px;
+    }
+
+    section .main {
+        flex-direction: column;
+        top: 80px;
+        text-align: center;
+    }
+
+    section .main h1 {
+        font-size: 32px;
+        top: 0;
+        left: 0;
+    }
+
+    section .main p {
+        width: 90%;
+        margin: 0 auto;
+        top: 20px;
+        left: 0;
+        text-align: center;
+    }
+
+    section .main .main_tag .main_btn {
+        top: 40px;
+        left: 0;
+        display: inline-block;
+    }
+
+    section .main .main_img img {
+        width: 90%;
+        top: 60px;
+        left: 0;
+    }
+
+    .services .services_box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .services .services_box .services_card {
+        width: 90%;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about .about_image img {
+        width: 100%;
+    }
+
+    .about .about_tag h1 {
+        bottom: 0;
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+    .about .about_tag p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about .about_tag .about_btn {
+        top: 15px;
+        display: inline-block;
+    }
+
+    .arrivals {
+        height: auto;
+    }
+
+    .arrivals .arrivals_box {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .arrivals .arrivals_box .arrivals_card {
+        margin: 10px 0;
+    }
+
+    .reviews {
+        height: auto;
+    }
+
+    .reviews .review_box {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .reviews .review_box .review_card {
+        width: 90%;
+        height: auto;
+        margin: 15px 0;
+    }
+
+    footer .footer_main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer .footer_main .tag p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* 8. About Page Specific Features */
+    .about_features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_features div {
+        width: 90%;
+    }
+}
